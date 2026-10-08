@@ -26,10 +26,10 @@ export default function CTAButton() {
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleClick}
-        className="group relative w-[220px] sm:w-full h-[42px] sm:h-[54px] bg-[#f1f0ed] hover:bg-[#f1f0ed] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(0,36,204,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline"
+        className="group relative w-[220px] sm:w-full h-[42px] sm:h-[54px] bg-[#f1f0ed] hover:bg-[#f1f0ed] text-[#f1f0ed] rounded-full flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(0,36,204,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline"
       >
         {/* Shine Animation Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent -left-full group-hover:animate-shine pointer-events-none" />
+        <div className="absolute inset-0 bg-gradient-to-r from-transparent via-[#f1f0ed]/25 to-transparent -left-full group-hover:animate-shine pointer-events-none" />
 
         <div className="flex items-center gap-3 sm:gap-4 relative z-10">
           <Star 
