@@ -48,7 +48,7 @@ const HeroBranding = () => {
             {/* Main Card Image */}
             <div className="relative z-10 w-[240px] sm:w-[320px] mx-auto transition-transform duration-500 group-hover:scale-105">
               <img 
-                src="https://i.imgur.com/cgqivNm.png" 
+                src="https://i.imgur.com/iiWU6eL.png" 
                 alt="Apple $750 Gift Card" 
                 className="w-full h-auto"
               />
@@ -77,7 +77,7 @@ const HeroBranding = () => {
         <div className="flex items-center justify-center gap-2 w-full text-center">
           <Sparkles className="w-3.5 h-3.5 text-[#facc15] shrink-0 animate-sparkle" />
           <p className="text-[13px] sm:text-sm md:text-[15px] text-[#182C54]/90 font-medium leading-relaxed whitespace-nowrap font-poppins">
-            Here&apos;s how to claim your <span className="text-[#67645e] font-bold">$750 gift card</span>
+            Here&apos;s how to claim your <span className="text-[#67645e] font-bold">$500 gift card</span>
           </p>
           <Sparkles className="w-3.5 h-3.5 text-[#facc15] shrink-0 animate-sparkle" />
         </div>
