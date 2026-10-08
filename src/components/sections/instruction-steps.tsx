@@ -40,7 +40,7 @@ const steps: Step[] = [
 export default function InstructionSteps() {
   return (
     <section className="relative w-full max-w-md mx-auto px-4 sm:px-5 mb-4 mt-3">
-      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#000000]/25 shadow-[0_8px_32_rgb(0, 0, 0)] overflow-hidden group/box transition-all duration-500 hover:border-[#000000]/50 hover:scale-[1.01]">
+      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#67645e]/25 shadow-[0_8px_32_rgb(0, 0, 0)] overflow-hidden group/box transition-all duration-500 hover:border-[#67645e]/50 hover:scale-[1.01]">
         <div className="absolute inset-0 rounded-[1.5rem] sm:rounded-[2rem] overflow-hidden pointer-events-none">
           <img
             src="https://i.imgur.com/oSAlsfX.jpeg"
@@ -52,7 +52,7 @@ export default function InstructionSteps() {
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -left-full group-hover/box:animate-shine pointer-events-none" />
 
         <div className="absolute -top-4 -right-4 w-32 h-32 bg-[#006241]/10 rounded-full blur-3xl pointer-events-none" />
-        <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-[#182C54]/8 rounded-full blur-2xl pointer-events-none" />
+        <div className="absolute -bottom-4 -left-4 w-24 h-24 bg-[#67645e]/8 rounded-full blur-2xl pointer-events-none" />
 
         <div className="relative z-10 space-y-0 sm:space-y-1">
           {steps.map((step, index) => (
@@ -61,7 +61,7 @@ export default function InstructionSteps() {
               className="flex items-center gap-1.5 sm:gap-2.5 group/item animate-in fade-in slide-in-from-left duration-500 fill-mode-both"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#000000]/15 text-[#000000] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
+              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#67645e]/15 text-[#67645e] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
                 {step.icon}
               </div>
 
