@@ -66,7 +66,7 @@ const HeroBranding = () => {
         <div className="relative">
             <h1 className="text-[19px] md:text-[25px] font-extrabold leading-tight tracking-tight flex items-center justify-center gap-x-2 flex-wrap font-poppins">
             <span className="text-[#000000]">Unlock</span>
-            <span className="text-[#000000]">Apple Rewards</span>
+            <span className="text-[#67645e]">Apple Rewards</span>
             <div className="flex items-center -ml-1">
               <Gift className="w-6 h-6 text-[#000000] fill-transparent" />
             </div>
@@ -77,7 +77,7 @@ const HeroBranding = () => {
         <div className="flex items-center justify-center gap-2 w-full text-center">
           <Sparkles className="w-3.5 h-3.5 text-[#facc15] shrink-0 animate-sparkle" />
           <p className="text-[13px] sm:text-sm md:text-[15px] text-[#182C54]/90 font-medium leading-relaxed whitespace-nowrap font-poppins">
-            Here&apos;s how to claim your <span className="text-[#000000] font-bold">$750 gift card</span>
+            Here&apos;s how to claim your <span className="text-[#67645e] font-bold">$750 gift card</span>
           </p>
           <Sparkles className="w-3.5 h-3.5 text-[#facc15] shrink-0 animate-sparkle" />
         </div>
